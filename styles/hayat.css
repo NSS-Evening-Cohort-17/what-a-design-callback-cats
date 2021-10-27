@@ -142,6 +142,26 @@ aside{
     padding-left: 40px;
 }
 
+.drunksidebar{
+    display: flex;
+    flex-direction: column;
+    border-style: dotted;
+    border-color: magenta;
+    width: 100%;
+}
+
+.drunkrick{
+    width: 500px;
+    height: 250px;
+    object-fit: contain;
+    padding-left: 30px;
+}
+
+.sidebarhead{
+    font-size: 25px;
+    text-align: center;
+}
+
 .meme{
     display: flex;
     flex-direction: column;
