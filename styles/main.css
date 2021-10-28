@@ -1,3 +1,7 @@
+body {
+    background-image: repeating-radial-gradient(red, indigo 10%, green 15%);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -44,3 +48,4 @@ a.active,a:hover{
     background: rgb(145, 209, 145);
     transition: .5s;
 }
+
