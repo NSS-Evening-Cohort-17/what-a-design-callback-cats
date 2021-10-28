@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    background: lime;
+    height: 70px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 45px;
+    line-height: 70px;
+    padding: 0 70px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px;
+    border-radius: 1px;
+}
+
+a.active,a:hover{
+    background: rgb(145, 209, 145);
+    transition: .5s;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+}
+
+.logoscompil{
+    width: 35%;
+    height: 150px;
+    align-self: center;
+}
+
+.shows{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: magenta;
+    width: 50%;
+}
+
+.showshead{
+    text-align: center;
+}
+
+.showlist{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.showlogo{
+    border: 1px dotted mediumpurple;
+    flex-basis: 16%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.snacks{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: magenta;
+    width: 50%;
+    background-color: rgb(223, 223, 124);
+}
+
+.snackshead{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.snacklist{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.snacklogo{
+    flex-basis: 16%;
+    text-align: center;
+}
+
+.sneks{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+aside{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    border-style: solid;
+    border-color: magenta;
+    width: 50%;
+    background-color: rgb(233, 164, 37);
+}
+
+.movieshead{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.movers{
+    width: 500px;
+    height: 250px;
+    object-fit: contain;
+    padding-left: 40px;
+}
+
+.drunksidebar{
+    display: flex;
+    flex-direction: column;
+    border-style: dotted;
+    border-color: magenta;
+    width: 100%;
+}
+
+.drunkrick{
+    width: 500px;
+    height: 250px;
+    object-fit: contain;
+    padding-left: 30px;
+}
+
+.sidebarhead{
+    font-size: 25px;
+    text-align: center;
+}
+
+.meme{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: magenta;
+    width: 50%;
+    background-color: plum;
+}
+
+.finaltouch{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    padding-left: 30px;
+}
