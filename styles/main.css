@@ -49,3 +49,20 @@ a.active,a:hover{
     transition: .5s;
 }
 
+.interwebs{
+    position: absolute;
+    left: 70%;
+    border: 6px solid;
+    border-color: chocolate;
+    width: 25%;
+    background-color: black;
+
+}
+
+.ads{
+    /*border: 6px solid;
+    border-color: chocolate;*/
+    width: 25%;
+    background-color: darkcyan;
+
+}
